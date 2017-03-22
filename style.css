@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}   
+    
+    h1:hover {
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 200;
+}
+
+h3 {
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #000;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+hr {
+    margin: 30px auto 40px;
+    width: 20%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+ol {
+    width: 25%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+iframe {
+    border: 7px solid #fff;
+    margin-bottom: 25px;
+}
+
+#ariana {
+    background-color: pink;
+}
+#ariana:hover {
+    background-color: #dbff93;
+}
+
+#justin {
+    background-color: #ccc;
+}
+
+#justin:hover {
+    background-color: #88e881;
+}
+
+#selena {
+    background-color: #ff998e;
+}
+
+#selena:hover {
+    background-color: #89def1;
+}
+
+#zayn {
+    background-color: #bc3fea;
+}
+
+#zayn:hover {
+    background-color: #eadb3f;
+}
+
+#alessia {
+    background-color: #3fcdea;
+}
+
+#alessia:hover {
+    background-color: #ea3f50;
+}
+
+#ed {
+    background-color: #7023ce;
+}
+
+#ed:hover {
+    background-color: #23ce4a;
+}
+
+#daya {
+    background-color: #25d19d;
+}
+
+#daya:hover {
+    background-color: #c451d6;
+}
+
+#drake {
+    background-color: #f71baa;
+}
+
+#drake:hover {
+    background-color: #1be8f7;
+}
+
+#adele {
+    background-color: #68f71b;
+}
+
+#adele:hover {
+    background-color: #ffe949;
+}
+
+#bruno {
+    background-color: #3246fc;
+}
+
+#bruno:hover {
+    background-color:#b814d1;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+} 
+
+#title {
+ font-family: 'Devonshire', cursive;
+ margin: 0;
+ font-size: 90px;
+ padding: 20px;
+ background-color: #93f9ff;
+ 
+}
+
+#title:hover {
+    box-shadow: inset 0 0 0 15px #000;
+    background-color: #e4f24f;
+    color: #000;
+}
+
+
+    
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Raleway;
+    color: black;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    font-size: 18px;
+}
+
+.up {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 15px 0;
+    border-radius: 5%;
+    width: 60px;
+    height: 60px;
+    background: #FFF;
+    border: 3px solid #000;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    transition: all 0.3s ease-in-out;
+}
